@@ -1,0 +1,23 @@
+.informacion{
+  margin: 5%;
+  width: 38%;
+  height: 30%;
+  float: left;
+  border: 1px solid black;
+  padding: 10px; /* Añade padding para espacio interno */
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.3); /
+}
+
+.recurso_imagen_hacertu{
+  width:200px;
+  border: 1px solid black;
+  height: 200px;
+  margin:5%;
+  float: left;  
+}
+
+.parrafo_imagen{
+  
+
+
+}

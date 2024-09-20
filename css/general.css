@@ -73,7 +73,7 @@ button{
   text-align: left;
 }
 
-.recurso_imagen {
+.recurso_imagen_inicio {
   margin: 5%;
   width: 40%; /* Ajusta el ancho */
   height: auto; /* Elimina height para que la imagen se ajuste automáticamente */
