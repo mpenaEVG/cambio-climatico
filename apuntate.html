@@ -8,7 +8,6 @@
     <link href="css/apuntate.css" rel="stylesheet">
   </head>
   <body>
-
     <header>
       <table>
           <tr>
@@ -24,78 +23,53 @@
       </table>
     </header>
     <main class=container>
-
+      <h1>APÚNTATE</h1>
+      <br/>
       <div class=formulario>
         <form action=" " method="post">
 
             <fieldset>
               <legend>Datos Personales</legend>
-                <div>
-                  <label for="nombre">Nombre de usuario:</label>
+                <div class=datos>
+                  <label for="nombre">Nombre:</label>
                   <input type="text" id="nombre" name="nombre" pattern="[A-Za-z]+"  required>
                 </div>
-                <div>
-                  <label for="direccion">Dirección:</label>
-                  <input type="search" id="direccion" name="direccion" required>
+                <div class=datos>
+                  <label for="direccion">Apellidos:</label>
+                  <input type="search" id="apellidos" name="apellidos" required>
                 </div>
-                <div>
-                  <label for="cuenta_bancaria">Cuenta Bancaria:</label>
-                  <input type="text" id="cuenta_bancaria" name="cuenta_bancaria" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" placeholder=" XXXX-XXXX-XXXX-XXXX" required>
-                  <small>Ejemplo: 1234-5678-9010-1234</small>
-                </div>
-            </fieldset>
 
-            <fieldset>
-              <legend>Tarifas</legend>
-              <div>
-                <select id="tarifa" name="tarifa">
-                  <option value="joven">Tarifa Joven</option>
-                  <option value="senior">Tarifa Senior</option>
-                  <option value="senior_plus">Tarifa Senior Superior</option>
+              <div class=datos>
+              <label for="sexo">Sexo:</label>
+                <select id="sexo" name="sexo">
+                  <option value="hombre">Hombre</option>
+                  <option value="mujer">Mujer</option>
+                  <option value="Otro">Otro</option>
                 </select>
               </div>
-              <div>
-                <label for="fecha_comienzo">Fecha de Comienzo de Servicio</label>
-                <input type="date" id="fecha_comienzo" name="fecha_comienzo" required>
+              <div class=datos>
+                <label for="fecha_nacimiento">Fecha de nacimiento</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
               </div>
             </fieldset>
             
             <fieldset>
-              <div>
-                <div>
+              <div class=datos>
                    <label>¿Desea recibir una notificacion Via SMS?</label>
-                    <div>
-                      <input type="radio" name="notificacion" id="Si">
-                      <label for="Si">Si</label>
-                      <input type="radio" name="notificacion" id="No">
-                      <label for="No">No</label>
-                    </div>
-                </div>
+                      <div class=radio_group>
+                        <input type="radio" name="notificacion" id="Si">
+                        <label for="Si">Si</label>
+                        <input type="radio" name="notificacion" id="No">
+                        <label for="No">No</label>
+                      </div>                
               </div>
 
             </fieldset>
          
-           <fieldset>
-            <legend>Registro de Usuario</legend>
-            <div>
-              <label for="identificador">Correo Electrónico</label>
-              <input type="email" id="identificador" name="correo_electrónico" required>
-            </div>
-            <div>
-              <label for="alias">Username</label>
-              <input type="text" id="alias" name="username" maxlength="10" required> 
-            </div>
-            <div>
-              <label for="psswd">Contraseña</label>
-              <input type="password" id="psswd" name="contraseña" required>
-            </div>
-           </fieldset>
-
-           <div>
+           <div class=botones>
              <button type="submit">Enviar</button>
-           </div>
-           <div>
              <button type="reset">Reestablecer</button>
+          </div>
             
 
         </form>

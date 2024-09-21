@@ -1,18 +1,24 @@
 *{
   margin: 0 auto;
   font-family: monospace;
+
 }
 body{
-  background-color: white;
   height: 100%;
   width: 100%;
+ background-image:url('../imagenesfondo/fondo1.jpg');
+
+
 }
 
 header{
-  background-color: #faf3f3;
   width: 100% ;
-  height: 10%;
+  height: 30%;
   margin-bottom: 5%;
+}
+h1{
+  color:crimson;
+  font-size: 3em;
 }
 table{
   width: 100%;
@@ -20,7 +26,7 @@ table{
 }
 td{
   width: 10%;
-  height: 10%;
+  height: 5%;
 }
 button{
   width: 100%;
@@ -38,6 +44,7 @@ button{
   max-width: 1280px;
   max-height: 720px;
   text-align: center;
+  height: 100%;
 }
 
 .info h3 {
@@ -74,11 +81,34 @@ button{
 }
 
 .recurso_imagen_inicio {
-  margin: 5%;
-  width: 40%; /* Ajusta el ancho */
-  height: auto; /* Elimina height para que la imagen se ajuste automáticamente */
+  background-image: url('../imagenesfondo/barcohundido.jpg');
+  background-size: cover; /* Ajusta la imagen para que cubra todo el div */
+  background-position: center; /* Centra la imagen en el div */
+  background-repeat: no-repeat; 
+  margin: 5% 10%;
+  width: 400px; /* Ajusta el ancho */
+  height: 100px; /* Elimina height para que la imagen se ajuste automáticamente */
   float: left;
   border: 1px solid black;
   padding: 10px; /* Añade padding para espacio interno */
   box-shadow: 3px 3px 8px rgba(0,0,0,0.3); /* Añade una sombra */
 }
+.stats {
+  background-color: whitesmoke;
+  border-collapse: collapse; /* Estilo específico para la tabla stats */
+  width: 50%;
+  margin: 2% 25%;
+}
+
+.stats td{
+  padding: 3%; /* Solo se aplica a las celdas de la tabla stats */
+  border: 1px solid black; 
+}
+caption{
+  margin: 5%;
+}
+.desastres{
+  color:crimson;
+}
+
+
