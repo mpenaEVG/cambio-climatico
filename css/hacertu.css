@@ -1,0 +1,47 @@
+.informacion{
+  margin: 5%;
+  width: 38%;
+  height: 30%;
+  float: left;
+  border: 1px solid black;
+  padding: 10px; /* Añade padding para espacio interno */
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.3); /
+}
+
+.recurso_imagen_hacertu{
+  width:45%;
+  height: 200px;
+  margin:5%;
+  float: left;  
+  background-image: url('../imagenesfondo/cruzroja.png');
+  background-size: contain; /* Ajusta la imagen para que cubra todo el div */
+  background-position: center; /* Centra la imagen en el div */
+  background-repeat: no-repeat; 
+}
+.recurso_imagen_hacertu#segundo{
+  background-image: url('../imagenesfondo/florlis.png');
+  background-size: contain; /* Ajusta la imagen para que cubra todo el div */
+  background-position: center; /* Centra la imagen en el div */
+  background-repeat: no-repeat; 
+
+}
+
+a {
+  color: crimson; /* Color azul agradable */
+  text-decoration: none; /* Quita el subrayado */
+  font-weight: bold; /* Hace que el texto sea negrita */
+  transition: color 0.3s ease; /* Animación suave al cambiar de color */
+}
+
+a:hover {
+  color: gray; /* Cambia el color cuando pasas el cursor */
+  text-decoration: underline; /* Subraya el enlace al pasar el cursor */
+}
+
+
+
+.parrafo_imagen{
+  margin: 5%; 
+
+
+}
