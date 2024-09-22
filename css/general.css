@@ -20,6 +20,7 @@ h1{
   color:crimson;
   font-size: 3em;
 }
+
 table{
   width: 100%;
   height: 100%;
@@ -55,7 +56,8 @@ button{
 
 .info ul {
   list-style-type: square; /* Cambia el estilo de las viñetas */
-  padding-left: 20px; /* Aumenta el margen izquierdo para que no esté pegado al borde */
+  
+  
 }
 
 .info ul ul {
@@ -64,17 +66,18 @@ button{
 
 .info li {
   margin-bottom: 10px; /* Añade espacio entre los elementos */
-  color: #333;
-  font-size: 1.1em;
+  color: black;
+  font-size: 1em;
 }
 
 .info ul li ul li {
-  color: #555; /* Color más claro para los subelementos */
   margin-bottom: 5px; /* Un poco menos de espacio en los subelementos */
+  
 }
 
+
 .info {
-  margin: 5%;
+  margin: 5% 2%;
   width: 30%; /* Ajusta el ancho */
   float: left; /* Mueve la info a la derecha */
   text-align: left;
@@ -87,7 +90,7 @@ button{
   background-repeat: no-repeat; 
   margin: 5% 10%;
   width: 400px; /* Ajusta el ancho */
-  height: 100px; /* Elimina height para que la imagen se ajuste automáticamente */
+  height: 400px; /* Elimina height para que la imagen se ajuste automáticamente */
   float: left;
   border: 1px solid black;
   padding: 10px; /* Añade padding para espacio interno */
@@ -104,11 +107,27 @@ button{
   padding: 3%; /* Solo se aplica a las celdas de la tabla stats */
   border: 1px solid black; 
 }
+.stats th{
+  color: 
+
+}
 caption{
   margin: 5%;
 }
 .desastres{
-  color:crimson;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
 }
 
+
+footer {
+  margin-top: 45%;
+  color: black; /* Texto blanco */
+  text-align: center; /* Centra el texto */
+  padding: 1%;
+  font-size: 10px; /* Tamaño de fuente más pequeño */
+  width: 100%; /* Ocupa todo el ancho */
+  font-style: italic;
+}
 
