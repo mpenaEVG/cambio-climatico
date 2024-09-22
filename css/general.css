@@ -26,7 +26,7 @@ table{
   height: 100%;
 }
 td{
-  width: 10%;
+  width: 100px;
   height: 5%;
 }
 button{
@@ -121,7 +121,8 @@ caption{
 }
 
 
-footer {
+
+footer {
   margin-top: 45%;
   color: black; /* Texto blanco */
   text-align: center; /* Centra el texto */
