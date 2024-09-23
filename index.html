@@ -7,12 +7,16 @@
     <link href="css/general.css" rel="stylesheet">
   </head>
   <body>
+    
+      <!--Uso la tabla para darle forma al navegador/header-->
     <header>
       <table>
           <tr>
           <td class="visible"><button>Logo</button></td>
             <td></td>
             <td></td>
+
+            <!--le damos un atributo al botón para que ejecute una pequeña acción en Js-->
             <td class="visible"><button onclick="window.location.href='index.html';">Inicio</button></td>
             <td></td>
             <td class="visible"><button onclick="window.location.href='quepuedeshacertu.html';">¿Qué puedes hacer?</button></td>
@@ -25,7 +29,7 @@
     <main class="container">
       <h1>MAYORES DESASTRES NATURALES</h1>
       <h2>Debidos al cambio climático</h2>
-
+      <!-- Tabla de estadísticas, podría haber usado id en vez de class-->
       <table class="stats">
         <caption>Estadísticas de Desastres Naturales Relacionados con el Cambio Climático</caption>
         <thead>
@@ -80,6 +84,7 @@
       <div class="recurso_imagen_inicio"></div>
       <div class="info">
         <h3>Tsunami en Japón</h3>
+        <!--Listas anidadas-->
         <ul>
           <li>Provocó:
             <ul>

@@ -33,7 +33,7 @@ input, select{
   margin:3%;
 
 }
-
+/*Usamos pseudoclases*/
 input:focus, select:focus {
   box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
   outline: none; /* Elimina el borde azul predeterminado */
@@ -42,6 +42,7 @@ input:focus, select:focus {
 .botones{
   margin: 5%;
 }
+
 button[type=submit],  button[type=reset]{
   background-color: whitesmoke;
   color: black;

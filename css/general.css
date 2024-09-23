@@ -41,6 +41,7 @@ button{
 }
 
 .container{
+  /* Esto debería haberlo puesto en el body*/
   max-width: 1280px;
   max-height: 720px;
   text-align: center;
@@ -89,15 +90,16 @@ button{
   background-repeat: no-repeat; 
   margin: 5% 10%;
   width: 400px; /* Ajusta el ancho */
-  height: 400px; /* Elimina height para que la imagen se ajuste automáticamente */
+  height: 400px; 
   float: left;
   border: 1px solid black;
   padding: 10px; /* Añade padding para espacio interno */
   box-shadow: 3px 3px 8px rgba(0,0,0,0.3); /* Añade una sombra */
 }
 .stats {
+/* Estilo específico para la tabla stats */
   background-color: whitesmoke;
-  border-collapse: collapse; /* Estilo específico para la tabla stats */
+  border-collapse: collapse; 
   width: 50%;
 margin: 2% 25%;
 }
@@ -119,7 +121,7 @@ caption{
 
 footer {
   margin-top: 45%;
-  color: black; /* Texto blanco */
+  color: black; 
   text-align: center; /* Centra el texto */
   padding: 1%;
   font-size: 10px; /* Tamaño de fuente más pequeño */

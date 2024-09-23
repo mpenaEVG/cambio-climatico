@@ -18,16 +18,17 @@
   background-position: center; /* Centra la imagen en el div */
   background-repeat: no-repeat; 
 }
+/* Hago combinacion de clase id para poner imágenes distintas */
 .recurso_imagen_hacertu#segundo{
   background-image: url('../imagenesfondo/florlis.png');
-  background-size: contain; /* Ajusta la imagen para que cubra todo el div */
-  background-position: center; /* Centra la imagen en el div */
+  background-size: contain; 
+  background-position: center;  
   background-repeat: no-repeat; 
 
 }
 
 a {
-  color: crimson; /* Color azul agradable */
+  color: crimson; 
   text-decoration: none; /* Quita el subrayado */
   font-weight: bold; /* Hace que el texto sea negrita */
   transition: color 0.3s ease; /* Animación suave al cambiar de color */
