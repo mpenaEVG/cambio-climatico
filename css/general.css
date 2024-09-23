@@ -1,13 +1,12 @@
 *{
-  margin: 0 auto;
+  margin: 0 auto; 
   font-family: monospace;
 
 }
 body{
   height: 100%;
   width: 100%;
- background-image:url('../imagenesfondo/fondo1.jpg');
-
+   background-image:url('../imagenesfondo/fondo1.jpg');
 
 }
 
@@ -100,17 +99,14 @@ button{
   background-color: whitesmoke;
   border-collapse: collapse; /* Estilo específico para la tabla stats */
   width: 50%;
-  margin: 2% 25%;
+margin: 2% 25%;
 }
 
 .stats td{
   padding: 3%; /* Solo se aplica a las celdas de la tabla stats */
   border: 1px solid black; 
 }
-.stats th{
-  color: 
 
-}
 caption{
   margin: 5%;
 }
@@ -129,5 +125,8 @@ caption{
   font-size: 10px; /* Tamaño de fuente más pequeño */
   width: 100%; /* Ocupa todo el ancho */
   font-style: italic;
+}
+
+  border: 1px solid black; 
 }
 
