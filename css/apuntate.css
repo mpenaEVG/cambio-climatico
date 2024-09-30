@@ -58,7 +58,7 @@ button[type=submit],  button[type=reset]{
   margin: 2%; 
   width: 40%;
 }
-input[type=radio]{
+input[type=checkbox]{
   margin:5% 10%;
   accent-color: gray;
 
