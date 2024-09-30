@@ -54,10 +54,9 @@ button[type=submit],  button[type=reset]{
 }
 
 .radio_group{
-  width: 100%;
+  width: 60%;
 }
 input[type=checkbox]{
-  margin: 5% 3%;
+  margin: 4% 2%;
   accent-color: gray;
-  width: 40%;
 }
